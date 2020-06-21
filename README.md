@@ -37,7 +37,7 @@ I used [Git](https://git-scm.com/) for versioning.
 
 ## Author
 
-* **Vikash Kumar** - [Linkedin](www.linkedin.com/in/vikash-kumar-b36ba5192), [GitHub](https://github.com/Vikashz) 
+* **Vikash Kumar** - [GitHub](https://github.com/Vikashz) 
 
 
 
