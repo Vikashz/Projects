@@ -63,11 +63,12 @@ def user(file_name,start_line_no,end_line_no):
                         contents = file.read()
                     # return jsonify(contents)
                     return render_template("display.html", content=contents)
-    except Exception as e:
-        return render_template("500.html", error = str(e))
+    
     except FileNotFoundError as e:
         return render_template("500.html", error = str(e))
     except ValueError as e:
+        return render_template("500.html", error = str(e))
+    except Exception as e:
         return render_template("500.html", error = str(e))
     
 @app.errorhandler(404)
